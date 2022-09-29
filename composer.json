@@ -1,0 +1,22 @@
+{
+  "name": "artur89/mylibconverter",
+  "description": "My test package for easy using converter currency",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur",
+      "email": "artur-rvachev@rambler.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable" : true,
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyLibConverter\\" : "src/"
+    }
+  }
+}
